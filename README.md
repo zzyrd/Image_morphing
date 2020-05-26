@@ -31,7 +31,7 @@ Notebooks folder contains experiments on finding facial landmarks, Delaunay Tria
 
 # Alpha Results
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/zzyrd/Image_morphing/blob/master/alpha_result.png "result")
 
 # How to use
 
@@ -47,24 +47,25 @@ Notebooks folder contains experiments on finding facial landmarks, Delaunay Tria
 
 3. Run morphing.py:
 
-  Help Command
+Help Command
 
-	`python3 morphing.py -h`
-
+    python3 morphing.py -h
 	Usage:
 	Short: python3 morphing.py -s <image1> -t <image2> -f <gif> or mp4>
 	Long: python3 morphing.py --source <image1> --target <image2> --format <gif> or mp4>
 
 
-	Generate mp4 output
-	python3 morphing.py -s christ-pratt.jpg -t kobe-bryant.jpg -f mp4
+Generate mp4 output
 
-	Generate gif output
+
+    python3 morphing.py -s christ-pratt.jpg -t kobe-bryant.jpg -f mp4
+
+Generate gif output
 
 	python3 morphing.py -s christ-pratt.jpg -t kobe-bryant.jpg -f gif
 
 # Results
-
+![alt text](https://github.com/zzyrd/Image_morphing/blob/master/morphed_image.gif "result")
 
 # Reference & Credits:
 	https://www.learnopencv.com/facial-landmark-detection/
