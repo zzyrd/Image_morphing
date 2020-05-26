@@ -3,7 +3,9 @@
 
 Image morph is a special effect in motion pictures and animations that changes one image into another through a seamless transition. It is a very interesting application of computer vision that interests me to dive into deeply about how it works. In this project, I focus on how Image morph works and how to implement.
 
-Notebooks folder contains experiments on finding facial landmarks, Delaunay Triangulation, and Voronoi Diagram.
+
+
+> See [report](https://github.com/zzyrd/Image_morphing/blob/master/Report.pdf) for details 
 
 # Data usage:
 
