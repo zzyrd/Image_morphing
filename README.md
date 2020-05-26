@@ -1,12 +1,9 @@
 # Image morphing
 
-This is a course project containing three mini projects, which address different aspects of data visualization. By using D3 library, I built visualizations out of a given dataset: country donations over year. As the change of focus on the data, the visualization also changes in order to answer issues effectively.  
-
-
-
-# Introduction
 
 Image morph is a special effect in motion pictures and animations that changes one image into another through a seamless transition. It is a very interesting application of computer vision that interests me to dive into deeply about how it works. In this project, I focus on how Image morph works and how to implement.
+
+Notebooks folder contains experiments on finding facial landmarks, Delaunay Triangulation, and Voronoi Diagram.
 
 # Data usage:
 
@@ -18,8 +15,8 @@ Image morph is a special effect in motion pictures and animations that changes o
 
 4. Additional library: numpy, cv2, imageio.
 
-# Procedure
 
+# Procedure
 
 1. Find corresponding points of facial landmark for both images.
 
@@ -34,14 +31,14 @@ Image morph is a special effect in motion pictures and animations that changes o
 
 # Alpha Results
 
-
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 # How to use
 
-1. Open the app folder: 
+1. Open the app folder:
 	cd image_morph_app
 
-2. Now see two images: christ-pratt.jpg, kobe-bryant.jpg 
+2. Now see two images: christ-pratt.jpg, kobe-bryant.jpg
    One image is source image, Another one is target image. You can replace those by your own images
 
    Two python scripts:
@@ -50,7 +47,10 @@ Image morph is a special effect in motion pictures and animations that changes o
 
 3. Run morphing.py:
 
-	python3 morphing.py -h    For help
+  Help Command
+
+	`python3 morphing.py -h`
+
 	Usage:
 	Short: python3 morphing.py -s <image1> -t <image2> -f <gif> or mp4>
 	Long: python3 morphing.py --source <image1> --target <image2> --format <gif> or mp4>
@@ -60,7 +60,10 @@ Image morph is a special effect in motion pictures and animations that changes o
 	python3 morphing.py -s christ-pratt.jpg -t kobe-bryant.jpg -f mp4
 
 	Generate gif output
+
 	python3 morphing.py -s christ-pratt.jpg -t kobe-bryant.jpg -f gif
+
+# Results
 
 
 # Reference & Credits:
